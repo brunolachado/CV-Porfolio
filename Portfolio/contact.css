@@ -74,30 +74,41 @@ body {
   margin-top: 80px;
 }
 
+.form-container {
+  width: 700px;
+  margin: 0 auto;
+}
 .form {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-direction: column;
   gap: 5px;
+  border: 2px solid black;
 }
 
 #yourname {
   width: 300px;
   height: 35px;
   border: 2px solid black;
+  border-radius: 15px;
+  margin: 10px;
 }
 
 #youremail {
   width: 300px;
   height: 35px;
   border: 2px solid black;
+  border-radius: 15px;
+  margin: 10px;
 }
 
 #message {
-  width: 700px;
-  height: 350px;
+  width: 500px;
+  height: 200px;
   border: 2px solid black;
+  border-radius: 20px;
+  margin: 10px;
 }
 
 .footer {
